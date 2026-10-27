@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.dualfishing.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "PlayerEntityMixin",
+    "FishingRodItemMixin",
+    "FishingBobberEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

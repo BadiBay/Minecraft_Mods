@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "dualfishing",
+  "version": "1.0.0",
+  "name": "Dual Fishing",
+  "description": "Allows fishing with two rods simultaneously.",
+  "authors": [
+    "Antigravity"
+  ],
+  "contact": {
+  },
+  "license": "CC0-1.0",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.dualfishing.DualFishingMod"
+    ]
+  },
+  "mixins": [
+    "dualfishing.mixins.json",
+    {
+      "config": "dualfishing.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.2",
+    "minecraft": ">=1.21.1 <1.22",
+    "java": ">=21"
+  }
+}
