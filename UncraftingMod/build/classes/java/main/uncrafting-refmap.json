@@ -1,0 +1,26 @@
+{
+  "mappings": {
+    "com/uncrafting/mixin/CraftingResultSlotMixin": {
+      "canInsert": "Lnet/minecraft/class_1734;method_7680(Lnet/minecraft/class_1799;)Z"
+    },
+    "com/uncrafting/mixin/CraftingScreenHandlerMixin": {
+      "onContentChanged": "Lnet/minecraft/class_1714;method_7609(Lnet/minecraft/class_1263;)V"
+    },
+    "com/uncrafting/mixin/ScreenHandlerMixin": {
+      "onSlotClick": "Lnet/minecraft/class_1703;method_7593(IILnet/minecraft/class_1713;Lnet/minecraft/class_1657;)V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "com/uncrafting/mixin/CraftingResultSlotMixin": {
+        "canInsert": "Lnet/minecraft/class_1734;method_7680(Lnet/minecraft/class_1799;)Z"
+      },
+      "com/uncrafting/mixin/CraftingScreenHandlerMixin": {
+        "onContentChanged": "Lnet/minecraft/class_1714;method_7609(Lnet/minecraft/class_1263;)V"
+      },
+      "com/uncrafting/mixin/ScreenHandlerMixin": {
+        "onSlotClick": "Lnet/minecraft/class_1703;method_7593(IILnet/minecraft/class_1713;Lnet/minecraft/class_1657;)V"
+      }
+    }
+  }
+}
